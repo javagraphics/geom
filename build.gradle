@@ -15,10 +15,15 @@ group = pGroup
 version = pVersion
 
 repositories {
+    maven {
+        url 'http://mvn.topobyte.de'
+    }
     mavenCentral()
 }
 
 dependencies {
+    compile 'com.bric:javagraphics-math:0.0.1'
+
     testCompile 'junit:junit:4.11'
 }
 
